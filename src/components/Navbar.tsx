@@ -3,7 +3,7 @@ import "../app/style/Navbar.css"
 
 export default function Navbar() {
   return (
-    <nav className="absolute z-10 right-4 top-9">
+    <nav className="absolute z-10 right-16 top-9">
       <ul className="flex gap-8 flex-row">
         <li><PathLink href={"/"}><h2 className="text-2xl no-underline hover:underline decoration-4 underline-offset-4 hover:decoration-hover-color">Home</h2></PathLink></li>
         <li><PathLink href={"/sobre-nos"}><h2 className="text-2xl no-underline hover:underline decoration-4 underline-offset-4 hover:decoration-hover-color">Sobre Nós</h2></PathLink></li>
