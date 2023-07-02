@@ -1,12 +1,11 @@
 import { Metadata } from 'next';
 import './style/globals.css'
-import { Abel, Montserrat, Montserrat_Subrayada } from 'next/font/google'
+import { Abel, Montserrat } from 'next/font/google'
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 const abel = Abel({ subsets: ['latin'], weight: '400' });
 const montserrat = Montserrat({ subsets: ['latin'] });
-const montserrat_subrayada = Montserrat_Subrayada({ subsets: ['latin'], weight: '400' });
 
 export const metadata: Metadata = {
   title: 'Balacobaco',
