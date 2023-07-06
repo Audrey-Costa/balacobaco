@@ -1,7 +1,7 @@
-export default function Contato () {
+export default function Contato() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       Contato
     </main>
-  )
+  );
 }

@@ -1,18 +1,18 @@
-'use client'
+"use client";
 
-import { Metadata } from 'next';
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Server Down',
-  description: 'Error',
-}
+  title: "Server Down",
+  description: "Error",
+};
 
 export default function GlobalError({
   error,
   reset,
 }: {
-  error: Error
-  reset: () => void
+  error: Error;
+  reset: () => void;
 }) {
   return (
     <html>
@@ -21,5 +21,5 @@ export default function GlobalError({
         <button onClick={() => reset()}>Try again</button>
       </body>
     </html>
-  )
+  );
 }
