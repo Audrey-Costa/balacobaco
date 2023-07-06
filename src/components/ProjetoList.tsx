@@ -73,7 +73,7 @@ export default function ProjetoList(): ReactElement {
               Consultoria
             </span>
           </PathLink>
-          <PathLink href={"/corpotativo"}>
+          <PathLink href={"/corporativo"}>
             <span
               className="hover:font-bold text-xl"
               onClick={() => deselected()}

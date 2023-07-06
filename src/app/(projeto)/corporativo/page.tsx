@@ -2,11 +2,11 @@ import { Bebas_Neue } from "next/font/google";
 
 const bebas_Neue = Bebas_Neue({ weight: "400", subsets: ["latin"] });
 
-export default function Residencial() {
+export default function Corporativo() {
   return (
     <main className="flex flex-col justify-start items-center">
       <h2 className="__className_6a3ae9 text-8xl tracking-widest my-20">
-        resindencial
+        corporativo
       </h2>
       <div className="grid grid-flow-row grid-cols-3 gap-7">
         <div className="flex flex-col justify-center items-center">
